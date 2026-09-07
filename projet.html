@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zohra Mdaini | Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio<span>.</span></div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projet.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-sun"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects" id="projects">
+            <div class="projects-header">
+                <div>
+                    <small>FEATURED</small>
+                    <h2>My Creative Projects</h2>
+                </div>
+
+            </div>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <div class="image-container">
+                        <img id="staywise-image" src="projet image/stay-home.PNG" alt="StayWise">
+                        <button class="arrow left" type="button" onclick="prevImage('staywise')" 
+                        aria-label="Previous StayWise image">❮</button>
+                        <button class="arrow right" type="button" onclick="nextImage('staywise')"
+                         aria-label="Next StayWise image">❯</button>
+                    </div>
+                    <div class="project-info">
+                        <h2>StayWise</h2>
+                        <p>Hotel booking platform that helps users find the best hotel by price and performance.<br>Inspired by Agoda</p>
+                        <a href="https://github.com/MdainiZohra123/staywise" class="project-btn">Discuss Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="image-container">
+                        <img id="zrateck-image" src="projet image/tek-home.PNG" alt="Zra Teck">
+                        <button class="arrow left" type="button" onclick="prevImage('zrateck')" aria-label="Previous Zra Teck image">❮</button>
+                        <button class="arrow right" type="button" onclick="nextImage('zrateck')" aria-label="Next Zra Teck image">❯</button>
+                    </div>
+
+                    <div class="project-info">
+                        <h2>Zra Teck</h2>
+                        <p>Personal web project developed with HTML, CSS, PHP, MySQL and JavaScript.</p>
+                        <a href="https://github.com/MdainiZohra123/zra-teck" class="project-btn">Discuss Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="image-container">
+                        <img id="todo-image" src="projet image/todolisete.PNG" alt="To-Do List">
+                        <button class="arrow left" type="button" onclick="prevImage('todo')" aria-label="Previous To Do image">❮</button>
+                        <button class="arrow right" type="button" onclick="nextImage('todo')" aria-label="Next To Do image">❯</button>
+                    </div>
+
+                    <div class="project-info">
+                        <h2>To-Do List</h2>
+                        <p>A simple task management web application.</p>
+                        <a href="https://mdainizohra123.github.io/Sinple-To-Do-Liste-/" class="project-btn">Discuss Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="image-container">
+                        <img id="zh-market-image" src="projet image/market-home.PNG" alt="zh-market">
+                        <button class="arrow left" type="button" onclick="prevImage('zh-market')" aria-label="Previous Zh-Market image">❮</button>
+                        <button class="arrow right" type="button" onclick="nextImage('zh-market')" aria-label="Next Zh-Market image">❯</button>
+                    </div>
+
+                    <div class="project-info">
+                        <h2>Zh-Market</h2>
+                        <p>Online marketplace application.</p>
+            
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Zohra. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
